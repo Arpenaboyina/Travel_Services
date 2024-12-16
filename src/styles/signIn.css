@@ -1,0 +1,99 @@
+/* signIn.css */
+.sign-in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f9;
+  padding: 20px; /* Add padding to avoid content touching edges */
+}
+
+h2 {
+  font-size: 1.8rem; /* Slightly smaller font for phones */
+  color: #4caf50; /* Green color for heading */
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 90%; /* Set width to a percentage for smaller devices */
+  max-width: 300px; /* Maintain maximum width for larger devices */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 14px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4caf50; /* Highlight with green color */
+}
+
+button {
+  padding: 10px;
+  background-color: #2196f3; /* Blue color for button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0b7dda; /* Darker blue on hover */
+}
+
+.error-message {
+  margin-top: 10px;
+  color: #f44336; /* Red for error message */
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+}
+
+/* Responsive Design for Phones */
+@media (max-width: 600px) {
+  .sign-in {
+      padding: 10px; /* Reduce padding for smaller screens */
+  }
+
+  h2 {
+      font-size: 1.5rem; /* Reduce heading font size */
+  }
+
+  form {
+      width: 100%; /* Take full width for smaller devices */
+      padding: 15px; /* Adjust padding for compact design */
+  }
+
+  button {
+      font-size: 14px; /* Reduce font size for button text */
+      padding: 8px; /* Slightly smaller button */
+  }
+
+  input {
+      font-size: 14px; /* Adjust input font size for smaller screens */
+  }
+}

@@ -1,0 +1,80 @@
+.register-container {
+  width: 90%; /* Adjusted width for better display on phones */
+  max-width: 700px; /* Maintain the maximum width for larger screens */
+  margin: 20px auto; /* Add some margin for better spacing on phones */
+  padding: 30px; /* Reduced padding for smaller screens */
+  background-color: #f4f4f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.register-container h2 {
+  text-align: center;
+  font-size: 20px; /* Reduced font size for smaller screens */
+  margin-bottom: 15px; /* Adjusted margin */
+}
+
+.register-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.register-container button {
+  width: 100%;
+  padding: 12px; /* Slightly larger padding for better touch targets */
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.register-container button:hover {
+  background-color: #45a049;
+}
+
+.register-container p {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.register-container p.green {
+  color: rgb(57, 220, 57);
+}
+
+.register-container p.red {
+  color: red;
+}
+
+/* Responsive Design for Phones */
+@media (max-width: 600px) {
+  .register-container {
+      padding: 20px; /* Reduce padding for smaller screens */
+      margin: 15px auto; /* Adjust margin for better alignment */
+  }
+
+  .register-container h2 {
+      font-size: 18px; /* Smaller font size for better fit */
+  }
+
+  .register-container input {
+      padding: 8px; /* Smaller padding for compact inputs */
+      font-size: 14px; /* Adjust input font size */
+  }
+
+  .register-container button {
+      padding: 10px; /* Adjust padding for button */
+      font-size: 14px; /* Adjust button font size */
+  }
+
+  .register-container p {
+      font-size: 12px; /* Adjust paragraph font size */
+  }
+}

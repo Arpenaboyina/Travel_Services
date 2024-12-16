@@ -1,0 +1,96 @@
+/* Footer Styles */
+.footer {
+    background: linear-gradient(90deg, #4caf50, #03a9f4, #ff5722);
+    color: white;
+    text-align: center;
+    padding: 15px; /* Reduced padding for smaller screens */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer p {
+    margin: 8px 0; /* Adjust margin */
+    font-size: 1rem;
+}
+
+/* Footer links */
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adjust spacing for smaller screens */
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+    margin: 10px 0;
+}
+
+.footer-btn {
+    text-decoration: none;
+    padding: 8px 30px; /* Reduce padding */
+    border-radius: 5px;
+    font-size: 0.9rem; /* Slightly smaller font size */
+    transition: all 0.3s ease-in-out;
+    color: white;
+}
+
+.footer-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+}
+
+/* Custom button colors */
+.github-btn {
+    background-color: #333;
+}
+
+.github-btn:hover {
+    background-color: #555;
+}
+
+.linkedin-btn {
+    background-color: #0077b5;
+}
+
+.linkedin-btn:hover {
+    background-color: #005582;
+}
+
+.email-btn {
+    background-color: #d32f2f;
+}
+
+.email-btn:hover {
+    background-color: #b71c1c;
+}
+
+/* Contact info styling */
+.contact-info {
+    margin-top: 8px;
+    font-size: 0.9rem; /* Reduce font size for smaller screens */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 600px) {
+    .footer {
+        padding: 10px; /* Reduce padding further for phones */
+    }
+
+    .footer p {
+        font-size: 0.85rem; /* Smaller font size for text */
+    }
+
+    .footer-links {
+        gap: 8px; /* Reduce gap between buttons */
+    }
+
+    .footer-btn {
+        padding: 6px 20px; /* Adjust button padding */
+        font-size: 0.8rem; /* Reduce button text size */
+    }
+
+    .contact-info {
+        font-size: 0.8rem; /* Further reduce font size */
+    }
+}

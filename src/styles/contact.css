@@ -1,0 +1,149 @@
+/* contact.css */
+
+/* Form container styling */
+.contact-form {
+  width: 90%; /* Use percentage for responsive width */
+  max-width: 600px; /* Limit maximum width */
+  margin: 20px auto; /* Reduce margin for smaller screens */
+  padding: 20px; /* Adjust padding */
+  background: linear-gradient(135deg, #f30ba2, #ffffff);
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+/* Form title */
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  font-size: 24px; /* Adjust font size for smaller screens */
+}
+
+/* Input and textarea styling */
+.contact-form input, 
+.contact-form textarea {
+  width: 100%;
+  padding: 10px 12px; /* Reduce padding for smaller screens */
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.contact-form input:focus, 
+.contact-form textarea:focus {
+  border-color: #00aaff;
+  box-shadow: 0 0 8px rgba(0, 170, 255, 0.5);
+  outline: none;
+}
+
+/* Textarea specific styles */
+.contact-form textarea {
+  height: 100px; /* Adjust height for smaller screens */
+  resize: none;
+}
+
+/* Submit button styling */
+.contact-form button {
+  display: block;
+  width: 100%;
+  padding: 10px 15px; /* Adjust padding */
+  background: #00aaff;
+  color: white;
+  font-size: 16px; /* Reduce font size */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s ease;
+  animation: randomButtons 2s infinite alternate ease-in-out;
+}
+
+.contact-form button:hover {
+  background-color: #0077cc;
+  transform: scale(1.1);
+}
+
+/* Response message styling */
+.contact-form p {
+  text-align: center;
+  margin-top: 15px; /* Adjust margin */
+  font-size: 14px; /* Reduce font size */
+  color: #28a745;
+  animation: slideIn 0.5s ease-in-out;
+}
+
+/* Animations */
+
+/* Fade-in animation for form */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Slide-in animation for response message */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Random button effects */
+@keyframes randomButtons {
+  0% {
+    background-color: #00aaff;
+  }
+  25% {
+    background-color: #ff6f61;
+  }
+  50% {
+    background-color: #28a745;
+  }
+  75% {
+    background-color: #ffcc00;
+  }
+  100% {
+    background-color: #6a5acd;
+  }
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 600px) {
+  .contact-form {
+    padding: 15px; /* Reduce padding for smaller screens */
+  }
+
+  .contact-form h2 {
+    font-size: 20px; /* Smaller font size for title */
+  }
+
+  .contact-form input, 
+  .contact-form textarea {
+    font-size: 14px; /* Reduce input font size */
+    padding: 8px 10px; /* Reduce padding */
+  }
+
+  .contact-form button {
+    padding: 8px 12px; /* Reduce button padding */
+    font-size: 14px; /* Smaller button text */
+  }
+
+  .contact-form p {
+    font-size: 13px; /* Smaller response message */
+  }
+}

@@ -2,11 +2,12 @@
     margin: 20px auto;
     width: 90%;
     max-width: 1200px;
+    color: black;
 }
 
 .project-carousel-item {
     text-align: center;
-    color: white;
+    color: rgb(23, 3, 3);
     position: relative;
 }
 

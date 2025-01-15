@@ -3,13 +3,13 @@ import { useNavigate } from 'react-router-dom';
  import '../styles/cars.css'; // Ensure this is inside src/
 
 // Import images
-import backgroundImage1 from '../styles/images/backgroundimage1.jpg';
-import image2 from '../styles/images/image2.avif';
-import image3 from '../styles/images/image3.avif';
-import image4 from '../styles/images/image4.avif';
-import image5 from '../styles/images/image5.avif';
-import image6 from '../styles/images/image6.avif';
-import img1 from '../styles/images/img1.jpg';
+import backgroundImage1 from '../styles/images/image1.jpg';
+import image2 from '../styles/images/image2.jpg';
+import image3 from '../styles/images/image3.jpg';
+import image4 from '../styles/images/image4.jpg';
+import image5 from '../styles/images/image5.jpg';
+import image6 from '../styles/images/image6.jpg';
+import img1 from '../styles/images/image7.jpg';
 
 const Cars = () => {
     const navigate = useNavigate();

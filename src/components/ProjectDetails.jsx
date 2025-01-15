@@ -5,11 +5,11 @@ import { useNavigate } from 'react-router-dom';
 
 // Paths to local images
 const cars = [
-    { title: 'Luxury Sedan', image: require('../styles/images/image2.avif'), link: '/cars' }, // Link to /cars
-    { title: 'Sports Car', image: require('../styles/images/image3.avif'), link: '/cars' },   // Link to /cars
-    { title: 'Electric Car', image: require('../styles/images/image4.avif'), link: '/cars' }, // Link to /cars
-    { title: 'SUV', image: require('../styles/images/image5.avif'), link: '/cars' },          // Link to /cars
-    { title: 'Convertible', image: require('../styles/images/image6.avif'), link: '/cars' },  // Link to /cars
+    { title: 'Luxury Sedan', image: require('../styles/images/image2.jpg'), link: '/cars' }, // Link to /cars
+    { title: 'Sports Car', image: require('../styles/images/image3.jpg'), link: '/cars' },   // Link to /cars
+    { title: 'Electric Car', image: require('../styles/images/image4.jpg'), link: '/cars' }, // Link to /cars
+    { title: 'SUV', image: require('../styles/images/image5.jpg'), link: '/cars' },          // Link to /cars
+    { title: 'Convertible', image: require('../styles/images/image6.jpg'), link: '/cars' },  // Link to /cars
 ];
 
 const ProjectDetails = () => {
@@ -30,7 +30,8 @@ const ProjectDetails = () => {
                                 backgroundImage: `url(${car.image})`,
                                 backgroundSize: 'cover',
                                 backgroundPosition: 'center',
-                                height: '400px',
+                                height: '600px',
+                        
                                 cursor: 'pointer',
                             }}
                             onClick={() => handleImageClick(car.link)} // Clicking the image will navigate to /cars

@@ -10,15 +10,15 @@ A modern and responsive travel booking web application built with React.js. This
 - 🔍 Search and filter based on user preferences
 - 📝 Booking functionality with user form
 - 🎨 Responsive UI using CSS/Bootstrap/Tailwind
-- 🌐 API integration (if any)
-- 🔐 Login/Signup support (optional)
+- 🌐 API integration
+- 🔐 Login/Signup support
 
 ---
 
 ## 🛠️ Tech Stack
 
 - **Frontend**: React.js, HTML5, CSS3, JavaScript
-- **Backend**: Node.js, Express (optional)
+- **Backend**: Node.js, Express
 - **Database**: MySQL
 - **Version Control**: Git, GitHub
 

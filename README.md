@@ -19,7 +19,7 @@ A modern and responsive travel booking web application built with React.js. This
 
 - **Frontend**: React.js, HTML5, CSS3, JavaScript
 - **Backend**: Node.js, Express (optional)
-- **Database**: MongoDB / MySQL (if used)
+- **Database**: MySQL
 - **Version Control**: Git, GitHub
 
 ---
